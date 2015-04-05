@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScanViewController.h
 //  ScanSafe
 //
 //  Created by Mac on 4/5/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ScanViewController : UIViewController
 
 @end
-

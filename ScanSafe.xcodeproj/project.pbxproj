@@ -10,11 +10,17 @@
 		04FD95351AD1B9A30020F415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD95341AD1B9A30020F415 /* main.m */; };
 		04FD95381AD1B9A30020F415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD95371AD1B9A30020F415 /* AppDelegate.m */; };
 		04FD953B1AD1B9A40020F415 /* ScanSafe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FD95391AD1B9A40020F415 /* ScanSafe.xcdatamodeld */; };
-		04FD953E1AD1B9A40020F415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD953D1AD1B9A40020F415 /* ViewController.m */; };
 		04FD95411AD1B9A50020F415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FD953F1AD1B9A50020F415 /* Main.storyboard */; };
 		04FD95431AD1B9A50020F415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FD95421AD1B9A50020F415 /* Images.xcassets */; };
 		04FD95461AD1B9A50020F415 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FD95441AD1B9A50020F415 /* LaunchScreen.xib */; };
 		04FD95521AD1B9A70020F415 /* ScanSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD95511AD1B9A70020F415 /* ScanSafeTests.m */; };
+		04FD955E1AD1BCBA0020F415 /* barscan.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD955D1AD1BCBA0020F415 /* barscan.png */; };
+		04FD95601AD1BD1A0020F415 /* houseicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD955F1AD1BD1A0020F415 /* houseicon.png */; };
+		04FD95631AD1BE790020F415 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD95621AD1BE790020F415 /* SWRevealViewController.m */; };
+		04FD95661AD1C1B20020F415 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD95651AD1C1B20020F415 /* ScanViewController.m */; };
+		04FD95691AD1C3780020F415 /* SideBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD95681AD1C3780020F415 /* SideBarTableViewController.m */; };
+		04FD956B1AD1C49F0020F415 /* MenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD956A1AD1C49F0020F415 /* MenuIcon.png */; };
+		04FD956E1AD1C51F0020F415 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD956D1AD1C51F0020F415 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +40,23 @@
 		04FD95361AD1B9A30020F415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FD95371AD1B9A30020F415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04FD953A1AD1B9A40020F415 /* ScanSafe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScanSafe.xcdatamodel; sourceTree = "<group>"; };
-		04FD953C1AD1B9A40020F415 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04FD953D1AD1B9A40020F415 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04FD95401AD1B9A50020F415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FD95421AD1B9A50020F415 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04FD95451AD1B9A50020F415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04FD954B1AD1B9A70020F415 /* ScanSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FD95501AD1B9A70020F415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FD95511AD1B9A70020F415 /* ScanSafeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanSafeTests.m; sourceTree = "<group>"; };
+		04FD955D1AD1BCBA0020F415 /* barscan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barscan.png; sourceTree = "<group>"; };
+		04FD955F1AD1BD1A0020F415 /* houseicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseicon.png; sourceTree = "<group>"; };
+		04FD95611AD1BE790020F415 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		04FD95621AD1BE790020F415 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		04FD95641AD1C1B20020F415 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		04FD95651AD1C1B20020F415 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		04FD95671AD1C3780020F415 /* SideBarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarTableViewController.h; sourceTree = "<group>"; };
+		04FD95681AD1C3780020F415 /* SideBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarTableViewController.m; sourceTree = "<group>"; };
+		04FD956A1AD1C49F0020F415 /* MenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIcon.png; sourceTree = "<group>"; };
+		04FD956C1AD1C51F0020F415 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		04FD956D1AD1C51F0020F415 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +98,20 @@
 		04FD95311AD1B9A20020F415 /* ScanSafe */ = {
 			isa = PBXGroup;
 			children = (
+				04FD955D1AD1BCBA0020F415 /* barscan.png */,
+				04FD955F1AD1BD1A0020F415 /* houseicon.png */,
+				04FD956A1AD1C49F0020F415 /* MenuIcon.png */,
 				04FD95361AD1B9A30020F415 /* AppDelegate.h */,
 				04FD95371AD1B9A30020F415 /* AppDelegate.m */,
-				04FD953C1AD1B9A40020F415 /* ViewController.h */,
-				04FD953D1AD1B9A40020F415 /* ViewController.m */,
+				04FD95611AD1BE790020F415 /* SWRevealViewController.h */,
+				04FD95621AD1BE790020F415 /* SWRevealViewController.m */,
 				04FD953F1AD1B9A50020F415 /* Main.storyboard */,
+				04FD956C1AD1C51F0020F415 /* HomeViewController.h */,
+				04FD956D1AD1C51F0020F415 /* HomeViewController.m */,
+				04FD95671AD1C3780020F415 /* SideBarTableViewController.h */,
+				04FD95681AD1C3780020F415 /* SideBarTableViewController.m */,
+				04FD95641AD1C1B20020F415 /* ScanViewController.h */,
+				04FD95651AD1C1B20020F415 /* ScanViewController.m */,
 				04FD95421AD1B9A50020F415 /* Images.xcassets */,
 				04FD95441AD1B9A50020F415 /* LaunchScreen.xib */,
 				04FD95391AD1B9A40020F415 /* ScanSafe.xcdatamodeld */,
@@ -202,9 +226,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FD955E1AD1BCBA0020F415 /* barscan.png in Resources */,
 				04FD95411AD1B9A50020F415 /* Main.storyboard in Resources */,
 				04FD95461AD1B9A50020F415 /* LaunchScreen.xib in Resources */,
+				04FD956B1AD1C49F0020F415 /* MenuIcon.png in Resources */,
 				04FD95431AD1B9A50020F415 /* Images.xcassets in Resources */,
+				04FD95601AD1BD1A0020F415 /* houseicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FD95381AD1B9A30020F415 /* AppDelegate.m in Sources */,
+				04FD95661AD1C1B20020F415 /* ScanViewController.m in Sources */,
 				04FD953B1AD1B9A40020F415 /* ScanSafe.xcdatamodeld in Sources */,
-				04FD953E1AD1B9A40020F415 /* ViewController.m in Sources */,
+				04FD95631AD1BE790020F415 /* SWRevealViewController.m in Sources */,
+				04FD95691AD1C3780020F415 /* SideBarTableViewController.m in Sources */,
+				04FD956E1AD1C51F0020F415 /* HomeViewController.m in Sources */,
 				04FD95351AD1B9A30020F415 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
